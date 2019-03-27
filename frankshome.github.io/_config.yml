@@ -5,7 +5,7 @@
 # Site
 title: 派同学的小黑屋
 subtitle:
-description: 派同学的流水账
+description: a Java coder
 keywords:
 author: 派同学
 language: zh-CN
@@ -81,5 +81,6 @@ theme: next
 deploy:
   type: git
   # repository: https://github.com/frankshome/frankshome.github.io.git
+  # repository: git@github.com:frankshome/frankshome.github.io.git
   repository: git@github.com:frankshome/frankshome.github.io.git
   branch: master

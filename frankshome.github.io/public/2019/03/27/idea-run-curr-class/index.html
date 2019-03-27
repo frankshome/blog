@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,7 +70,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
+    scheme: 'Pisces',
     version: '7.0.1',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
     back2top: true,
@@ -96,24 +96,30 @@
 
 
 
-  <meta name="description" content="派同学的流水账">
+  <meta name="description" content="在使用IDEA做Java开发中，有时会遇到其他类错误，但只想仅仅运行当前类的情况。比如现在的代码中，使用了mybatis plus插件，并使用了其逆向生成Java类的插件，在运行时，由于其他类存在编译错误，无法运行，报以下错误:  方法一，更改运行配置  方法二，报错后，忽略错误类">
+<meta name="keywords" content="IDEA">
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="http://yoursite.com/2019/03/26/test/index.html">
+<meta property="og:title" content="IDEA 运行当前类">
+<meta property="og:url" content="http://yoursite.com/2019/03/27/idea-run-curr-class/index.html">
 <meta property="og:site_name" content="派同学的小黑屋">
-<meta property="og:description" content="派同学的流水账">
+<meta property="og:description" content="在使用IDEA做Java开发中，有时会遇到其他类错误，但只想仅仅运行当前类的情况。比如现在的代码中，使用了mybatis plus插件，并使用了其逆向生成Java类的插件，在运行时，由于其他类存在编译错误，无法运行，报以下错误:  方法一，更改运行配置  方法二，报错后，忽略错误类">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-27T03:07:57.444Z">
+<meta property="og:image" content="http://yoursite.com/images/2019-03-27/error.jpg">
+<meta property="og:image" content="http://yoursite.com/images/2019-03-27/step1.jpg">
+<meta property="og:image" content="http://yoursite.com/images/2019-03-27/step2.jpg">
+<meta property="og:image" content="http://yoursite.com/images/2019-03-27/step3.jpg">
+<meta property="og:updated_time" content="2019-03-27T09:20:07.405Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="test">
-<meta name="twitter:description" content="派同学的流水账">
+<meta name="twitter:title" content="IDEA 运行当前类">
+<meta name="twitter:description" content="在使用IDEA做Java开发中，有时会遇到其他类错误，但只想仅仅运行当前类的情况。比如现在的代码中，使用了mybatis plus插件，并使用了其逆向生成Java类的插件，在运行时，由于其他类存在编译错误，无法运行，报以下错误:  方法一，更改运行配置  方法二，报错后，忽略错误类">
+<meta name="twitter:image" content="http://yoursite.com/images/2019-03-27/error.jpg">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/03/26/test/">
+  <link rel="canonical" href="http://yoursite.com/2019/03/27/idea-run-curr-class/">
 
 
 
@@ -123,7 +129,7 @@
   };
 </script>
 
-  <title>test | 派同学的小黑屋</title>
+  <title>IDEA 运行当前类 | 派同学的小黑屋</title>
   
 
 
@@ -226,6 +232,23 @@
         
         
           
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
           <li class="menu-item menu-item-archives">
 
     
@@ -244,9 +267,6 @@
       
     </ul>
   
-
-  
-    
 
   
 
@@ -269,6 +289,9 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+            
+
+          
           <div id="content" class="content">
             
 
@@ -288,11 +311,11 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/26/test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/27/idea-run-curr-class/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="派同学">
-      <meta itemprop="description" content="派同学的流水账">
+      <meta itemprop="description" content="a Java coder">
       <meta itemprop="image" content="/images/avatar.gif">
     </span>
 
@@ -305,7 +328,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">test
+          <h1 class="post-title" itemprop="name headline">IDEA 运行当前类
 
               
             
@@ -331,24 +354,12 @@
                 
               
 
-              <time title="创建时间：2019-03-26 22:25:38" itemprop="dateCreated datePublished" datetime="2019-03-26T22:25:38+08:00">2019-03-26</time>
+              <time title="创建时间：2019-03-27 16:19:45 / 修改时间：17:20:07" itemprop="dateCreated datePublished" datetime="2019-03-27T16:19:45+08:00">2019-03-27</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-03-27 11:07:57" itemprop="dateModified" datetime="2019-03-27T11:07:57+08:00">2019-03-27</time>
               
             
           </span>
@@ -382,7 +393,12 @@
       
 
       
-        
+        <p>在使用IDEA做Java开发中，有时会遇到其他类错误，但只想仅仅运行当前类的情况。<br>比如现在的代码中，使用了mybatis plus插件，并使用了其逆向生成Java类的插件，在运行时，由于其他类存在编译错误，无法运行，报以下错误:</p>
+<p><img src="/images/2019-03-27/error.jpg" alt="编译错误"></p>
+<h4 id="方法一，更改运行配置"><a href="#方法一，更改运行配置" class="headerlink" title="方法一，更改运行配置"></a>方法一，更改运行配置</h4><p><img src="/images/2019-03-27/step1.jpg" alt="更改运行配置"></p>
+<p><img src="/images/2019-03-27/step2.jpg" alt="更改运行配置"></p>
+<h4 id="方法二，报错后，忽略错误类"><a href="#方法二，报错后，忽略错误类" class="headerlink" title="方法二，报错后，忽略错误类"></a>方法二，报错后，忽略错误类</h4><p><img src="/images/2019-03-27/step3.jpg" alt="忽略错误类"></p>
+
       
     </div>
 
@@ -403,6 +419,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/IDEA/" rel="tag"># IDEA</a>
+          
+        </div>
+      
 
       
       
@@ -412,15 +434,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/03/27/hello-world/" rel="next" title="Hello 罗喜噗">
+                <i class="fa fa-chevron-left"></i> Hello 罗喜噗
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/03/27/hello-world/" rel="prev" title="Hello World">
-                Hello World <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -464,13 +486,24 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="派同学">
+            
               <p class="site-author-name" itemprop="name">派同学</p>
-              <div class="site-description motion-element" itemprop="description">派同学的流水账</div>
+              <div class="site-description motion-element" itemprop="description">a Java coder</div>
           </div>
 
           
@@ -480,7 +513,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -488,6 +521,23 @@
 
               
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
             </nav>
           
@@ -511,6 +561,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#方法一，更改运行配置"><span class="nav-number">1.</span> <span class="nav-text">方法一，更改运行配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方法二，报错后，忽略错误类"><span class="nav-number">2.</span> <span class="nav-text">方法二，报错后，忽略错误类</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -546,7 +613,7 @@
 
 
 
-  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
+  <div class="theme-info">主题 – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.0.1</div>
 
 
 
@@ -634,7 +701,9 @@
   
 
 
-  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+  <script src="/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.1"></script>
 
 
 
